@@ -119,6 +119,10 @@
         });
       },
       handleCancel() {
+        this.form.userName = '';
+        this.form.mail = '';
+        this.form.passwd = '';
+        this.form.passwdCheck = '';
 
       }
     }
